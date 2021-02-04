@@ -1,3 +1,5 @@
+# async와 defer
+
 ### \<head> 안에 \<script> 삽입
 
 > parsing html -> fetching js -> executing js -> parsing html
