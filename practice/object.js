@@ -36,17 +36,16 @@ console.log(polo.name);     // polo
 console.log('name' in polo);      // true
 console.log('address' in Person);   // false
 
-// for (key in person1) {
-//     console.log(key);
-// }
-// name
-// age
+for (let key in person1) {
+    console.log(key);
+}
 
 
-// const array = [1, 2, 3, 4, 5];
-// for (val of array) {
-//     console.log(val);
-// }
+
+const array = [1, 2, 3, 4, 5];
+for (let val of array) {
+    console.log(val);
+}
 
 
 const user1 = new Person('john', 31);

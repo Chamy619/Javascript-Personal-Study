@@ -84,7 +84,8 @@ console.log('address' in Person);   // false
 ### For .. In vs For .. Of
 
 for (key in obj) 라고 쓰면 obj에 있는 모든 key들을 for 안에 작성한 key로 접근할 수 있음
-**use strict를 첫 줄에 선언했으면 에러가 남**
+~~**use strict를 첫 줄에 선언했으면 에러가 남**~~
+**use strict를 사용할 경우 key 앞에 let을 붙여줘야 함**
 
 ```
 // for in
@@ -96,7 +97,8 @@ for (key in Person) {
 ```
 
 for of의 경우 배열에서 주로 쓰고, 모든 값에 접근하기 위해 사용
-**이 또한 use strict를 선언할 경우 사용할 수 없음**
+~~**이 또한 use strict를 선언할 경우 사용할 수 없음**~~
+**use strict를 사용할 경우 val 앞에 let을 붙여줘야 함**
 
 ```
 // for of
