@@ -127,7 +127,7 @@ user2은 user1의 reference값을 가지고 있기 때문에 user1을 수정하�
 user1과 user2가 가리키는 객체가 같은 객체이므로 하나를 수정하면 둘 다 영향을 받음
 
 값만 복사하기 위해선 object assign을 사용하면 됨
-Object.assign(<Target>, <Source>)
+Object.assign(\<Target>, \<Source>)
 
 ```
 // old way
